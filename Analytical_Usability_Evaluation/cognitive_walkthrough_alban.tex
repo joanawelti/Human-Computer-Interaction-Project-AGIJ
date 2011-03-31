@@ -1,0 +1,167 @@
+\documentclass[fontsize=12pt,paper=a4]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\usepackage[final]{microtype}
+
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{Evaluation}
+\date{\today}
+\author{Alban Edouard}
+\maketitle
+
+
+\section{Cognitive Walkthrough}
+
+\subsection{Questions to ask}
+\begin{description}
+\item[Q1:] Will the user expect to have to take this action?
+\item[Q2:] Will the user notice the control for the action?
+\item[Q3:] Once users find the control, will they recognize that it produces the desired effect?
+\item[Q4:] If the correct action is performed, will progress be apparent?
+\end{description}
+ 
+\subsection{Actions for buying a trouser for a girl}
+\begin{table}[htdp]
+\begin{center}
+\begin{tabular}{|c|l|c|c|c|c|}
+\hline
+\textbf{Nr} & \textbf{Action} & \textbf{Q1} & \textbf{Q2} & \textbf{Q3} &\textbf{Q4} \\
+\hline
+1 & Click on ``Girl''& Yes & Yes & Yes & Yes\\
+\hline
+2 & Move Curser to ``Bottoms'' & No & Yes & Yes & Yes \\
+\hline
+3 & Move Curser to ``Trousers'' & Yes & Yes & Yes & Yes \\
+\hline
+4 & Click on ``Trousers'' & Yes & Yes & Yes & Yes \\
+\hline
+5 & Move to ``Order by: > Size'' & Yes & Yes & Yes & Yes \\
+\hline
+6 & Select ``0 - 6m'' from the drop down menu & Yes & Yes & Yes & Yes\\
+\hline
+7 & Move to ``Order by: > Prize'' & Yes & Yes & Yes & Yes \\
+\hline
+8 & Select ``10 - 20\pounds'' from the drop down menu & Yes & Yes & Yes & Yes\\
+\hline
+9 & Move to ``Order by: > Availability'' & Yes & Yes & Yes & Yes \\
+\hline
+10 & Select ``In stock'' from the drop down menu & Yes & Yes & Yes & Yes\\
+\hline
+11 & Click on ``Go'' & Yes & Yes & Yes & Yes\\
+\hline
+12 & Click on ``Girl Trousers 7'' & Yes & Yes & Yes & Yes\\
+\hline
+13 & Click on ``Choose Colour'' & Yes & Yes & Yes & Yes\\
+\hline
+14 & Select yellow from the colours & Yes & Yes & Yes & Yes\\
+\hline
+15 & Click on ``Choose Size'' & Yes & Yes & Yes & Yes\\
+\hline
+16 & Select ``3 months'' from sizes & Yes & Yes & Yes & Yes\\
+\hline
+17 & Click on ``Add to Cart'' & Yes & Yes & Yes & Yes\\
+\hline
+18 & Click on ``Cart'' & No & No & Yes & Yes\\
+\hline
+19 & Click on ``Checkout'' & Yes & Yes & Yes & Yes\\
+\hline
+20 & Click on ``Guest checkout'' & Yes & Yes & Yes & Yes\\
+\hline
+21 & Fill in shipping address & Yes & Yes & Yes & Yes\\
+\hline
+22 & Click on ``Next step'' & Yes & Yes & Yes & Yes\\
+\hline
+23 & Select ``Credit Card'' & Yes & Yes & Yes & Yes\\
+\hline
+24 & Click on ``Next step'' & Yes & Yes & No & Yes\\
+\hline
+25 & Fill in payment details & Yes & Yes & Yes & Yes\\
+\hline
+26 & Click on ``Next step'' & Yes & Yes & Yes & Yes\\
+\hline
+27 & Click on ``Place order'' & Yes & Yes & Yes & Yes\\
+\hline
+\end{tabular}
+\end{center}
+\label{Coginitive_walkthrough}
+\caption{Coginitive walkthrough}
+\end{table}%
+
+\subsection{Problems found}
+\begin{description}
+\item[2 :] The user has to know that "Trousers" is in "Bottoms". 
+\item[18 :] The user has to know that he has to clicked on the "Cart" button on the top right and corner to start the check out. A pop-up which indicate this action will be useful, with also an hyperlink in direction of the Cart.
+\item[24 :] By clicking on "Next step", the user can only add more payment informations and not go in the final step.
+\end{description}
+
+\section{Heuristics Evaluation}
+
+\subsection{Visibility of system status}
+
+\subsection{Match between system and the real world}
+
+\subsection{User control and freedom}
+
+\begin{table}[htdp]
+\begin{center}
+\begin{tabular}{|p{2cm}|p{6.5cm}|p{6.5cm}|}
+\hline
+\textbf{Screen No(s)} & \textbf{What is wrong} & \textbf{How to improve?} \\
+\hline
+8 & It is not possible to choose the quantity for the item & Add a field where the user can choose the desired quantity.\\
+\hline
+9 & It is not possible to remove an item & Add a "Remove" button.\\
+\hline
+14 - Place an order & If the user has made any mistakes, it is not possible for him to correct it. & Add the following sentence next to the "Place order" button : You can modify your informations by clicking on one of the corresponding step, and modify your item by clicking on it.\\
+\hline
+\end{tabular}
+\end{center}
+\label{3_heurisitcs_eval}
+\end{table}
+
+\subsection{Consistency and standards}
+\subsection{Consistency and standards}
+\begin{table}[htdp]
+\begin{center}
+\begin{tabular}{|p{2cm}|p{6.5cm}|p{6.5cm}|}
+\hline
+\textbf{Screen No(s)} & \textbf{What is wrong} & \textbf{How to improve?} \\
+\hline
+12 & By clicking on "Next step", the user can only add more payment informations and not go in the final step. & Change the name of the button for "Payment Details".\\
+\hline
+\end{tabular}
+\end{center}
+\label{4_heurisitcs_eval}
+\end{table}
+
+\subsection{Error prevention}
+\begin{table}[htdp]
+\begin{center}
+\begin{tabular}{|p{2cm}|p{6.5cm}|p{6.5cm}|}
+\hline
+\textbf{Screen No(s)} & \textbf{What is wrong} & \textbf{How to improve?} \\
+\hline
+8 & The user can select "Add to cart" even if any colors or sizes are chosen. & Enable the button only if the value is correct.\\
+\hline
+\end{tabular}
+\end{center}
+\label{5_heurisitcs_eval}
+\end{table}
+
+\subsection{Recognition rather than recall}
+
+\subsection{Flexibility and efficiency of use}
+
+\subsection{Aesthetic and minimalist design}
+
+\subsection{Help users recognize, diagnose and recover from errors}
+
+\subsection{Help and documentation}
+
+\end{document}

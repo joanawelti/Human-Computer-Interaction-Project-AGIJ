@@ -1,0 +1,49 @@
+Inquiry with Björn
+Website: http://www.oshkoshbgosh.com/
+
+Questions before the task:
+Did you ever buy clothes for children?
+- No
+Have you ever bought clothes online?
+- Yes	
+What webshop do you use?
+- ae.com, sportcheck.ch
+What do you like about these shops?
+- Easy to use, convenient, see entire collection at a glance, 
+navigation clear (men, women, clearance), available colors are displayed on overview page
+Do you have accounts for the shops you use regularly?
+- yes
+What payment method do you prefer?
+- Paypal
+
+Task: 
+1. Boy
+Aged 2 years
+Yellow shirt, as cheap as possible
+
+Went to sale, browsed through all items, didn't find any yellow shirts. Went to Boys > Toddler > Tops, looked through all items again, selected first yellow item, wanted to put that into shopping cart. Didn't select size, error appeared that he must select a size. Didn't know size, as sizes were shop specific. Went to size chart, which didn't help (only knew age of boy, but not weight/height). Made a guess.
+Went on looking for other yellow dress, cheaper ones, would have deleted the first item if he had found a cheaper one. 
+Didn't see filter, didn't use search field.
+
+2. Girl
+Aged 2 months
+White dress, but with some flowers on it
+Price not important
+
+Discovered search field, typed in "girl 2 months white dress flowers". No search results. Refined search to "white dress flowers", got 3 search results. Also used filter this time, filtered by age, selected dress that remained. Put item into shopping cart, again, no-size-selected error. 
+
+
+3. Change quantity from 1 to 2 for the dress
+Went to cart, used drop down to change quantity from one to two. No problems there.
+
+Questions for interview after task
+Hidden or easy to find?
+- With a good search function it's quite easy.
+-But without such a functionality it's time consuming.
+How did you decide on a size for the dress?
+- Guessing via the size description.
+How do you like the web site?
+- quite nice, not the best.
+What would you improve on the site?
+- It's not easy to find the right size if you don't know the height of the child. I would improve the size chart and the labeling of the sizes.
+

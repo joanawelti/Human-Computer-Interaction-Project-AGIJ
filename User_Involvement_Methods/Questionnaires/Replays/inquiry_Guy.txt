@@ -1,0 +1,75 @@
+﻿Inquiry with Guy
+Website: http://www.oshkoshbgosh.com/
+
+Questions before the task:
+Did you ever buy clothes for children?
+- No
+Have you ever bought clothes online?
+- Yes
+What webshop do you use?
+- www.decathlon.fr, vente-privee.com
+What do you like about these shops?
+- lots of choices, easy menus
+Do you have accounts for the shops you use regularly?
+- yes
+What payment method do you prefer?
+- credit card
+
+
+
+Task: 
+1. Boy
+Aged 2 years
+Yellow shirt, as cheap as possible
+
+clicked on boy
+submenu appears
+selected categories "Tops" in "Toddler Boy"
+filter products by size = 2T, sort by = price low to high
+looked through all items on the fisrt page
+selected the Yellow All Bark No Bite shirt at $5.50
+chose size = 2T and quantity = 1
+clicked on add to cart
+clicked on checkout
+clicked on checkout
+stoped here
+
+
+
+2. Girl
+Aged 2 months
+White dress, but with some flowers on it
+Price not important
+
+clicked on baby
+submenu appears
+selected categories "Dresses" in "Baby girls"
+looked through all filter products by size and finally chose = 3M because didn't find 2M
+looked through all sort by but didn't choose anything
+looked through all items on the fisrt page
+tried to click on the "2" for switch to another page
+clicked on the arrow
+came back in the fisrt page and chose the "White Flower Poplin Dress"
+Not 2M size so chose 3M and quantity = 1
+clicked on add to cart
+clicked on checkout
+clicked on checkout
+stoped here
+
+
+
+3. Change quantity from 1 to 2 for the dress
+went in the cart, change the quantity, nothing appended so clicked on update
+
+
+
+Questions for interview after task
+Hidden or easy to find?
+- easy
+How did you decide on a size for the dress?
+- the bigger after 2M
+How do you like the web site?
+- very nice! easy to find something quickly with the submenu
+What would you improve on the site?
+- maybe details in the cart more clear and item details in a bigger font
+

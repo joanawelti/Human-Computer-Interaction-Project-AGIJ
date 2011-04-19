@@ -3,7 +3,7 @@ To make sure that our system would be usable in the end, two of our group member
 The results of these evaluations are summed up in the following subsections. The complete results can be found in the appendix.
 
 \subsection{Cognitive Walkthrough Setup}
-To make sure that the results of the cognitive walkhtrough that our two experts conducted are comparable, we chose the following scenario as a starting point:\\
+To make sure that the results of the cognitive walkhtrough that our two experts conducted are comparable, we chose the following scenario as a starting point:
 
 Susan, 82 years old, would like to buy trousers online. Her niece Pam gave birth to an adorable girl just three months ago. Since Susan is invited to go over to Pam's place for dinner, she would like to bring along a present for her. Pam's mentioned that her girl just grew out of another pair of trousers, so Susan would like to get her a new one. She would like to order a nice one, but it should't be too pricey. Susan knows that Pam likes yellow, which is why the trousers should be yellow if possible.
 
@@ -32,3 +32,20 @@ Of course, all of these problems would have to be addressed, if the system would
 Overall, the design seems to be quite reasonable. Some mistakes were found, but none of them are very serious. However, only a user test with a final, implemented system could show, if the users can really navigate the system, as we intend it.
 
 \subsection{Key-Level Model Analysis Setup}
+We used the same scenario and the same assumptions for the KLM analysis that we already defined for the Cognitive Walkthrough. By doing this, the qualitative results of the Cognitive Walkthrough can be compared to the quantitative results of the KLM analysis. We also intend on using this scenario for the user test, because then the findings of the experts can be much easier compared to the outcomes of the user tests.
+
+\subsection{Results of the Key-Level Model Analysis}
+We chose to use this technique, to have a reference value, as how much time is needed to buy an item in our webshop. This will be especially useful for the planned user tests. There, we can easily compare the time a user needs to perform a task to the time our expert needed to perform the same task. With this, we can find out which steps may be more difficult for the future users and also find inefficencies in our system.\\
+For the analysis, we identified the following actions that the users will have to perform:\\
+\begin{tabular}{l l l}
+	\hspace{0.5cm}- H: & Move hand to mouse & 0.4s\\
+	\hspace{0.5cm}- M: & Mental preparation for following action & 9s\\
+	\hspace{0.5cm}- P: & Point mouse to the next button & 0.2s\\
+	\hspace{0.5cm}- F: & Fill in credit card details & 15s\\
+\end{tabular}
+
+Since we don't have an implemented system yet, we left away factors, such as the response time of the system. These factors might have a significant impact on the overall experience of using our webshop. However, since they fully depend on the used hardware, these times would have to be determined on the same system that we would use for the user testing.
+
+Our expert found that 17 actions are necessary to buy a pair of girl trousers in our webshop. This is, if the user has no prior account and uses the guest checkout. The total time to perform these actions is 106.4 seconds. Of course, this does not include the decision process, exactly which pair the user wishes to buy. But since this may wary between a couple of seconds and several minutes, this is not a factor we can take into account.
+
+All in all, we think this is a good result for our system. It seems to be straightforward to use and also efficiently designed.

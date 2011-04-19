@@ -25,12 +25,12 @@ To create our task model, we have analyzed different websites for baby clothes, 
     \end{enumerate}
   \item Go to check out
     \begin{enumerate}[label*=\arabic*.,itemsep=-5pt]
-      \item Confirm shopping items or delete items
-      \item Log in with user name and password, or create a new account, or continue without account
-      \item Select address and name
-	\begin{enumerate}[label*=\arabic*.,itemsep=-5pt]
-	  \item Choose a personal data set among all personal data 
-	  \item Provide personal data (name, street, city, country, phone number, email address)
+%      \item Confirm shopping items or delete items
+      \item Log in with user name/password, create new account, continue without account
+%      \item Select address and name
+				\begin{enumerate}[label*=\arabic*.,itemsep=-5pt]
+%	 				\item Choose a personal data set among all personal data 
+	  			\item Provide personal data (name, street, city, country, phone number, email address)
         \end{enumerate}
       \item Select payment method
       \item Confirm order      
@@ -39,22 +39,21 @@ To create our task model, we have analyzed different websites for baby clothes, 
 \end{enumerate}
 Plan 1: repeat 1-2-3-4-5 in this order for all different purchases you wish to make\\
 Plan 1.1: do (1.1) or (1.2); (1.2.1) is not mandatory\\
-Plan 5: do (5.2) if not already logged in; do (5.2), (5.3.1) and (6) only if user account exists\\
-Plan 5.2: three possibilities: log in, create a new account (go to "create a customer account" task) or continue without an account; do (5.3.2) only for a new account, or if checking out without account
+Plan 5: do (5.1) if not already logged in; (6) is only possible after logging in\\
+Plan 5.1: three alternatives: log in, create a new account (see "create a customer account" task) or continue without an account; d(5.1.1) only for a new account, or if checking out without account
 
 \subsubsection{Create a customer account}
 \begin{enumerate}[label*=\arabic*.,start=0,itemsep=-5pt]
   \item In order to create a customer account:
   \item Enter login information
   \begin{enumerate}[label*=\arabic*.,itemsep=-5pt]
-		\item Provide a user name
-		\item Provide a password
+		\item Provide a user name and a password
 	\end{enumerate}
   \item Provide personal data (name, street, city, country, phone number, email address)
   \item Save account
 \end{enumerate}
 Plan 1: do 1-2-3 in this order\\
-Plan 1.1: repeat 1.1 and 1.2 until user name and password are accepted
+Plan 1.1: repeat 1.1 until user name and password are accepted
 
 \subsubsection{Manage an account}
 \begin{enumerate}[label*=\arabic*.,start=0,itemsep=-5pt]
@@ -66,15 +65,13 @@ Plan 1.1: repeat 1.1 and 1.2 until user name and password are accepted
       \item Edit data
       \item Save data
     \end{enumerate}
-%  \item Go to special offers page
 \end{enumerate}
 Plan 1: do 1 and then 2 and 3 independently
-%Plan 5: go to "buy baby clothes" task (2.b) but with special offers
 
 \subsection{Scenarios}
 \textbf{Jeff and Judy Seavers} would like to surprise their daughter with a complete set of baby clothes.
 Because Julie just had a girl, they would like to buy primarily pink or red clothes. Cost isn't that important, since the clothes will be a present for their daughter.
-They would like to get the ordered clothes before their daughter leaves the hospital in about four days, so they need to be able to learn how to navigate through the online shop as quickly as possible and sort the products by availability.
+They would like to get the ordered clothes before their daughter leaves the hospital in about four days.%, so they need to be able to learn how to navigate through the online shop as quickly as possible and sort the products by availability.
 
 \textbf{Sarah Gordon} still has most of the baby clothes from her first child. She only needs a new romper suit.
 Due to the fact that she does not have much money, the romper suit should be as cheap as possible.

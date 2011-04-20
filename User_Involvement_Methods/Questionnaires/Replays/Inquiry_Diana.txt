@@ -1,0 +1,59 @@
+Inquiry_Diana
+Website: http://www.oshkoshbgosh.com/
+
+Questions before the task:
+Did you ever buy clothes for children?
+- Yes
+Have you ever bought clothes online?
+- Yes
+What webshop do you use?
+- markafoni.com boohoo.com accessorize.com
+What do you like about these shops?
+- I can find products of well-known brands from these sites. 
+Do you have accounts for the shops you use regularly?
+- yes
+What payment method do you prefer?
+- credit card
+
+Task: 
+1. Boy
+Aged 2 years
+Yellow shirt, as cheap as possible
+
+wrote "boy t-shirt" on search bar 
+filter products by size = 2T, sort by = price low to high
+looked through all products
+selected the Yellow All Bark No Bite shirt at $5.50
+chose size = 2T and quantity = 1
+clicked on add to cart
+clicked on checkout
+clicked on checkout again
+clicked checkout without registering
+
+
+2. Girl Aged 2 months
+White dress, but with some flowers on it
+Price not important
+
+search "baby girl dress" 
+filter products by size 3M since there is no 2M
+looked through and select White Flower Poplin Dress
+chose 3M as size and 1 as quantity
+clicked on add to cart
+clicked on checkout
+clicked on checkout
+
+3. Change quantity from 1 to 2 for the dress
+Click on My Cart 
+Changed the quantity to 2 
+Clicked on update button
+
+Questions for interview after task
+
+Hidden or easy to find?
+- easy
+How did you decide on a size for the dress?
+- 3M was the most appropriate one.
+How do you like the web site?
+- good design! easy to find the product.
+What would you improve on the site?

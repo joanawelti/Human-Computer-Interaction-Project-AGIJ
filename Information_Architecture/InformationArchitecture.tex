@@ -4,8 +4,8 @@
 Our web application has a Hybrid Organization Structure. In this type of organization structure there is a relation between the hierarchical model and the underlying database. We are planning to use this type of organization since in our system, there is a hierarchy between the web pages and there should be a database system in it.
 
 \begin{figure}[ht!]
-  \centering  
-  \includegraphics[width=0.5\textwidth]{Images/hybrid_org.png}                
+  \centering
+  \includegraphics[width=0.5\textwidth]{Images/hybrid_org.png}
   \caption{Hybrid Organisation Structure}
   \label{fig:hybrid_org}
 \end{figure}
@@ -18,29 +18,23 @@ Our system has an Inexact Organisation Scheme. The users are able to find the it
 We aim to develop a user-friendly web application, therefore it is important to have specific and clear labels. To determine the labels which are used in our web application, we looked at some websites selling baby clothes such as \textit{oshkoshbgosh.com} and \textit{babymallonline.com}.
 
 \begin{itemize}
-\item In our application, there are a reasonable number of categories. 
-\item Each category has some members. 
+\item In our application, there are a reasonable number of categories.
+\item Each category has some members.
 \item In order to determine the labels, we analyzed the existing webshops.
 \end{itemize}
 
-We have different 
-% TODO: what do you mean with groups?
-groups 
-for baby boys and baby girls, because these two groups have different types of clothes. The users generally try to find an item by means of the type of the clothes, so we have labels for different types of baby clothes. 
-% TODO: base on inquiry results, not on questionnaire
-We reached this result after analyzing the questionnaire results. Also there are two other labels which are clearance and second hand, users are able to look through these pages in order to find some cheaper items.
-We use some other subgroups under the main groups so that user are able to find the items they want. 
-% TODO: not the only labels
-These labels are tops, bottoms, footwear. Under these subgroups, users can look through the type of clothes.
+We have different categories for baby boys and baby girls, because these two groups have different types of clothes. As we saw in our inquiries, users generally try to find an item by means of the type of the clothes (tops, bottoms, shoes, etc.), so we have labels for different types of baby clothes.
+Also there are two other labels which are clearance and second hand, users are able to look through these pages in order to find some cheaper items.
+We use some other subgroups under the main groups so that user are able to find the items they want. Under these subgroups, users can look through the type of clothes.
 
 \subsubsection{Labels}
 \begin{itemize}
 \setlength{\itemsep}{-3pt}
 \setlength{\parskip}{0pt}
 \setlength{\parsep}{0pt}
- \item Boy 
- \item Girl 
- \item Clearance 
+ \item Boy
+ \item Girl
+ \item Clearance
  \item Second Hand
 \end{itemize}
 
@@ -82,7 +76,7 @@ These labels are tops, bottoms, footwear. Under these subgroups, users can look 
      \item Pajamas
 	\end{itemize}
 
-\minisec{Girl} 
+\minisec{Girl}
 \begin{itemize}
 \setlength{\itemsep}{-3pt}
 \setlength{\parskip}{0pt}
@@ -99,12 +93,12 @@ These labels are tops, bottoms, footwear. Under these subgroups, users can look 
 		 \item Shorts
 		 \item Skirts
 		\end{itemize}
-	 \item Dresses 
+	 \item Dresses
 	 \item Footwear (same as for Boy)
 	 \item Bodysuits	
      \item Pajamas
 	\end{itemize}
-\minisec{Clearance and Second Hand} 
+\minisec{Clearance and Second Hand}
 \begin{itemize}
 \setlength{\itemsep}{-3pt}
 \setlength{\parskip}{0pt}
@@ -143,4 +137,4 @@ These labels are tops, bottoms, footwear. Under these subgroups, users can look 
 	 \item Bodysuits	
      \item Pajamas
 	\end{itemize}
-
+"Clearance and Second Hand" sections have no different subgroups for boys and girls. The main reason behind it is that we do not want to have so many navigation parts since it would make the web page confusing. For those categories, we provide gender filters instead.
